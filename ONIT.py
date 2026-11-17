@@ -140,6 +140,12 @@ while True:
         a = "I"
         b = "LOVE"
         c = "PYTHON"
+
+        print("a = \"I\"")
+        print("b = \"LOVE\"")
+        print("c = \"PYTHON\"")
+        print("print(a, b, c)")
+
         print(a, b, c)
 
 
@@ -217,6 +223,16 @@ while True:
         english = 90
         average = (math + science + english) / 3
 
+        print("math = 85")
+        print("science = 88")
+        print("english = 90")
+        print("average = (math + science + english) / 3\n")
+
+        print("Math:, math")
+        print("Science:, science")
+        print("English:, english")
+        print("Average Grade:, round(average, 2)\n")
+
         print("Math:", math)
         print("Science:", science)
         print("English:", english)
@@ -225,9 +241,18 @@ while True:
         print("\n EXERCISE 2: RECTANGLE AREA AND PERIMETER")
         length = 12
         width = 8
-
         area = length * width
         perimeter = 2 * (length + width)
+
+        print("length = 12")
+        print("width = 8")
+        print("area = length * width")
+        print("perimeter = 2 * (length + width)\n")
+
+        print("Length:, length")
+        print("Width:, width")
+        print("Area:, area")
+        print("Perimeter:, perimeter\n")
 
         print("Length:", length)
         print("Width:", width)
@@ -287,7 +312,7 @@ while True:
         print(" True, False")
 
 
-        print("\n   -LESSON 5: GROCERY RECEIPT-")
+        print("\n   -LESSON 5: GROCERY RECEIPT-\n")
 
         customer = "neo"
         item = "pencil"
@@ -296,6 +321,26 @@ while True:
         total = price * quantity
         vat = total * 0.12
         final_total = total + vat
+
+
+        print("customer = \"neo\"")
+        print("item = \"pencil\"")
+        print("price = 10")
+        print("quantity = 5")
+        print("total = price * quantity")
+        print("vat = total * 0.12")
+        print("final_total = total + vat")
+
+        print("print(\"\n========== GROCERY RECEIPT ==========\")")
+        print("print(\"Customer:, customer\")")
+        print("print(\"Item:, item\")")
+        print("print(\"Price:, price\")")
+        print("print(\"Quantity:, quantity\")")
+        print("print(\"Total Cost:, total\")")
+        print("print(\"Vat (12%):, vat\")")
+        print("print(\"Amount to Pay:, final_total\")")
+        print("print(\"=====================================\")")
+
 
         print("\n========== GROCERY RECEIPT ==========")
         print("Customer:", customer)
@@ -349,14 +394,26 @@ while True:
         print("Score:", score)
         print("Is score greater than 75?", score > 75)
 
-        print("\n   -LESSON 3: THE IF STATEMENT-")
+        print("\n   -LESSON 3: THE IF STATEMENT-\n")
         age = 20
+
+        print("age = 20\n")
+
+        print("if age >= 18:")
+        print("    print(\"You are an adult.\")\n")
 
         if age >= 18:
             print("You are an adult.")
 
-        print("\n   -LESSON 4: THE IF-ELSE STATEMENT-")
+        print("\n   -LESSON 4: THE IF-ELSE STATEMENT-\n")
         score = 65
+
+        print("score = 65\n")
+
+        print("if score >= 75:")
+        print("   print(\"Passed\"")
+        print("else:")
+        print("   print(\"Failed\")\n")
 
         if score >= 75:
             print("Passed")
@@ -364,7 +421,21 @@ while True:
             print("Failed")
 
         print("\n   -LESSON 5: THE IF-ELIF-ELSE STATEMENT-")
-        grade = int(input("Enter your grade: "))
+        grade = 80
+
+        print("grade = 80\n")
+
+        print("if ggrade >= 90 and grade <= 100:")
+        print("   print(\"Excellent\")\n")
+        print("elif grade >= 85:")
+        print("   print(\"Very Good\")\n")
+        print("elif grade >= 75:")
+        print("   print(\"Passed\")\n")
+        print("elif grade >= 0:")
+        print("   print(\"Failed\")\n")
+        print("else:")
+        print("   print(\"Invalid Grade\")\n")
+
 
         if grade >= 90 and grade <= 100:
             print("Excellent")
@@ -378,7 +449,14 @@ while True:
             print("Invalid Grade")
 
         print("\n   -LESSON 6: NESTED CONDITIONS-")
-        number = int(input("Enter a number: "))
+        number = 10
+
+        print("number = 10\n")
+        print("if number >= 0:")
+        print("   if number == 0:")
+        print("      print(\"The number is zero.\")")
+        print("else:")
+        print("   print(\"The number is negative.\")\n")
 
         if number >= 0:
             if number == 0:
@@ -422,13 +500,6 @@ while True:
         print("The AND operator returns True only when")
         print("both conditions are True.")
 
-        age = 20
-        has_id = True
-
-        print("\n               EXAMPLE:")
-        print("Age:", age)
-        print("Has ID:", has_id)
-        print("Can enter:", age >= 18 and has_id)
 
         print("\n AND TRUTH TABLE:")
         print("TRUE  AND TRUE  =", True and True)
@@ -446,13 +517,6 @@ while True:
         print("FALSE OR TRUE  =", False or True)
         print("FALSE OR FALSE =", False or False)
 
-        print("\n               EXAMPLE:")
-        day = "Saturday"
-
-        if day == "Saturday" or day == "Sunday":
-            print("It's the weekend!")
-        else:
-            print("It's a regular school day.")
 
         print("\n   -LESSON 4: NOT OPERATOR-")
         print("The NOT operator reverses the result")
@@ -462,17 +526,18 @@ while True:
         print("NOT TRUE  =", not True)
         print("NOT FALSE =", not False)
 
-        print("\n               EXAMPLE:")
-        is_raining = False
-
-        if not is_raining:
-            print("You can go outside.")
-        else:
-            print("Bring an umbrella.")
 
         print("\n   -LESSON 5: COMBINING LOGICAL OPERATORS-")
         age = 20
         score = 90
+
+        print("age = 20")
+        print("score = 90\n")
+
+        print("if age >= 18 and score >= 75:")
+        print("   print(\"Requirements completed!\")")
+        print("else:")
+        print("   print(\"Requirements not completed.\")\n")
 
         if age >= 18 and score >= 75:
             print("Requirements completed!")
@@ -531,19 +596,30 @@ while True:
 
         print("\n               EXAMPLE: PRINT NUMBERS 1 TO 5")
 
+        print("for number in range(1, 6):")
+        print("   print(number)\n")
+
         for number in range(1, 6):
             print(number)
 
         print("\n   -LESSON 5: COUNTING DOWN WITH RANGE()-")
+        print("for number in range(5, 0, -1):")
+        print("   print(number)\n")
 
         for number in range(5, 0, -1):
             print(number)
 
         print("\n   -LESSON 6: OUTPUT ODD NUMBERS-")
+        print("for number in range(1, 10, 2):")
+        print("   print(number)\n")
+
         for number in range(1, 10, 2):
             print(number)
 
         print("\n   -LESSON 7: OUTPUT EVEN NUMBERS-")
+        print("for number in range(2, 11, 2):")
+        print("   print(number)\n")
+
         for number in range(2, 11, 2):
             print(number)
 
@@ -552,6 +628,13 @@ while True:
         print("as long as its condition is True.")
 
         count = 1
+
+        print("count = 1\n")
+
+        print("while count <= 5:")
+        print("   print(\"Count:, count\")")
+        print("   count += 11")
+
 
         while count <= 5:
             print("Count:", count)
@@ -595,7 +678,4 @@ while True:
         elif back == "N":
             print("\n     BYE SEE YOU NEXT TIME!")
             break
-
-
-
 
