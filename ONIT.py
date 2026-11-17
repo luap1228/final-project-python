@@ -1,7 +1,7 @@
 while True:
 
     print("o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o")
-    print("|                           - WELCOME TO PYTHON -                                 |")
+    print("|                           - WELCOME TO PYTHON -   00                              |")
     print("o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o=o")
     print("|   [1] INTRODUCTION TO PROGRAMMING                                               |")
     print("|   [2] PYTHON BASIC SYNTAX                                                       |")
